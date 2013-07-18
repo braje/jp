@@ -119,6 +119,8 @@ isArchive = isType A
 data PaintingType = C | CA | A deriving Eq
 data Painting = Painting PaintingType String String String 
 
+-- 15,16,14,17,18,19,20,21,22,10,23
+
 paintings :: [Painting]
 paintings = [
    Painting A "buttercup.jpg" "8\" x 10\"" "Oil on Canvas"
@@ -139,32 +141,33 @@ paintings = [
 
     , Painting A "painting 1.jpg" "11.75\" x 12\"" "Oil on Canvas"
     , Painting A "painting archive 1.jpg" "8\" x 9\"" "Oil on Canvas"
-    , Painting CA "Jen 01-cropped" "30\" x 40\"" "Graphite on Paper"
     , Painting A "drawing circle yellow.jpg" "26.5\" x 22.5\"" "Ink & Oil Pastel on Paper"
     
+    , Painting C "_DSC0385-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "_DSC0386-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+--del per Jen    , Painting C "Jen 15-cropped" "\" x \"" "Dunno"
+    , Painting C "_DSC0387-cropped" "9\" x 10\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "_DSC0388-cropped" "9\" x 10\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "JENBRA_0101-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "JENBRA_0115-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "JENBRA_0121-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "JENBRA_0138-cropped" "22.5\" x 22.75\"" "Charcoal on Paper"    
+--del per Jen    , Painting C "Jen 12-cropped" "10\" x 9\"" "Acrylic, Ink & Graphite on Paper"
+    , Painting C "JENBRA_0145-cropped" "30\" x 40\"" "Graphite on Paper"
+    
+    , Painting CA "Jen 01-cropped" "30\" x 40\"" "Graphite on Paper"
     , Painting CA "Jen 02-cropped" "35\" x 27.5\"" "Charcoal on Paper"
     , Painting CA "Jen 03-cropped" "36\" x 29.5\"" "Charcoal on Paper"
-    , Painting CA "Jen 04-cropped" "22.5\" x 22.75\"" "Charcoal on Paper"
+-- ??dup    , Painting CA "Jen 04-cropped" "22.5\" x 22.75\"" "Charcoal on Paper"
     , Painting CA "Jen 05-cropped" "25\" x 22\"" "Acrylic & Ink on Paper"
     , Painting CA "Jen 06-cropped" "19.5\" x 22.25\"" "Oil Slick on Paper"
-    , Painting C "Jen 07-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+--dup    , Painting C "Jen 07-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
     , Painting C "Jen 08-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
-    , Painting C "Jen 09-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
-
-    , Painting C "Jen 12-cropped" "10\" x 9\"" "Acrylic, Ink & Graphite on Paper"
+--dup    , Painting C "Jen 09-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
+    
     , Painting CA "Jen 13-cropped" "11.5\" x 9.25\"" "Acrylic & Ink on Paper"
     , Painting CA "Jen 14-cropped" "11.5\" x 9.25\"" "Acrylic & Ink on Paper"
     , Painting C "Jen 11-cropped" "9\" x 10\"" "Acrylic, Ink & Graphite on Paper"
-    , Painting C "Jen 15-cropped" "\" x \"" "Dunno"
-    , Painting C "_DSC0385-cropped" "\" x \"" "Dunno"
-    , Painting C "_DSC0386-cropped" "\" x \"" "Dunno"
-    , Painting C "_DSC0387-cropped" "\" x \"" "Dunno"
-    , Painting C "_DSC0388-cropped" "\" x \"" "Dunno"
-    , Painting C "JENBRA_0101-cropped" "\" x \"" "Dunno"
-    , Painting C "JENBRA_0115-cropped" "\" x \"" "Dunno"
-    , Painting C "JENBRA_0121-cropped" "\" x \"" "Dunno"
-    , Painting C "JENBRA_0138-cropped" "\" x \"" "Dunno"
-    , Painting C "JENBRA_0145-cropped" "\" x \"" "Dunno"
     ]
 
 paintingName :: Painting -> String
