@@ -123,25 +123,25 @@ data Painting = Painting PaintingType String String String
 
 paintings :: [Painting]
 paintings = [
-   Painting A "buttercup.jpg" "8\" x 10\"" "Oil on Canvas"
-    , Painting A "drawing archive.jpg" "9.25\" x 8.5\"" "Ink on Paper"
-    , Painting A "oil stick 1.jpg" "33.5\" x 25\"" "Oil Stick on Paper"
-    , Painting A "oil stick 2.jpg" "25\" x 25\"" "Oil Stick on Paper"
-    , Painting A "oil stick on board 1.jpg" "11\" x 9\"" "Oil Stick on Canvas"
-    , Painting A "one night.jpg" "11\" x 14\"" "Oil on Canvas"
-    , Painting A "Orange & Black.jpg" "38.25\" x 30\"" "Ink & Oil Pastel on Paper"
-    , Painting A "Drawing Circle.jpg" "37.25\" x 30.25\"" "Ink on Paper"
-    , Painting A "Drawing Circle 2.jpg" "12.75\" x 12.5\"" "Ink on Paper"
-    , Painting A "Drawing Circle 4.jpg" "14\" x 13.5\"" "Ink on Paper"
+   Painting A "buttercup" "8\" x 10\"" "Oil on Canvas"
+    , Painting A "drawing archive" "9.25\" x 8.5\"" "Ink on Paper"
+    , Painting A "oil stick 1" "33.5\" x 25\"" "Oil Stick on Paper"
+    , Painting A "oil stick 2" "25\" x 25\"" "Oil Stick on Paper"
+    , Painting A "oil stick on board 1" "11\" x 9\"" "Oil Stick on Canvas"
+    , Painting A "one night" "11\" x 14\"" "Oil on Canvas"
+    , Painting A "Orange & Black" "38.25\" x 30\"" "Ink & Oil Pastel on Paper"
+    , Painting A "Drawing Circle" "37.25\" x 30.25\"" "Ink on Paper"
+    , Painting A "Drawing Circle 2" "12.75\" x 12.5\"" "Ink on Paper"
+    , Painting A "Drawing Circle 4" "14\" x 13.5\"" "Ink on Paper"
 
-    , Painting A "drawing 1.jpg" "9.5\" x 8\"" "Ink on Paper"
-    , Painting A "drawing circle 5.jpg" "14\" x 12.5\"" "Ink on Paper"
+    , Painting A "drawing 1" "9.5\" x 8\"" "Ink on Paper"
+    , Painting A "drawing circle 5" "14\" x 12.5\"" "Ink on Paper"
 
-    , Painting A "drawing archive 2.jpg" "6\" x 5.5\"" "Graphite on Paper"
+    , Painting A "drawing archive 2" "6\" x 5.5\"" "Graphite on Paper"
 
-    , Painting A "painting 1.jpg" "11.75\" x 12\"" "Oil on Canvas"
-    , Painting A "painting archive 1.jpg" "8\" x 9\"" "Oil on Canvas"
-    , Painting A "drawing circle yellow.jpg" "26.5\" x 22.5\"" "Ink & Oil Pastel on Paper"
+    , Painting A "painting 1" "11.75\" x 12\"" "Oil on Canvas"
+    , Painting A "painting archive 1" "8\" x 9\"" "Oil on Canvas"
+    , Painting A "drawing circle yellow" "26.5\" x 22.5\"" "Ink & Oil Pastel on Paper"
     
     , Painting C "_DSC0385-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
     , Painting C "_DSC0386-cropped" "25\" x 22\"" "Acrylic, Ink & Graphite on Paper"
