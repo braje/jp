@@ -1,0 +1,147 @@
+body {
+    padding-top: 25px;
+}
+
+header {
+    background: url('../img/palette.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+li a {
+    font-size: large;
+}
+
+/* #aaa #111 */
+
+.nav > li > a {
+    color: lightslategray;
+    font-weight: bolder;
+}
+
+.nav > li > a:hover {
+    color: lightslategray;
+    background-color: darkslategray;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover {
+    color: darkslategray;
+    background-color: lightslategray;
+    font-weight: bolder;
+}
+
+#hdr-text {
+    background-color: rgba(0,0,0,0.65);
+
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+}
+
+/*
+li a {
+    color: darkslategray;
+    font-size: large;
+    font-weight: bold;
+}
+
+ul {
+    background-color: #eee;
+    opacity: 0.65;
+
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover {
+    color: darkslategray;
+    font-weight: bolder;
+    background-color: #bbb;
+}
+*/
+
+.nav-pills>li>a {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#hdr-jen {
+    color: lightsteelblue;
+    font-weight: 900;
+}
+
+/* center nav bar */
+nav {
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+nav .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+nav .nav li {
+    display: table-cell;
+    width: 33.3%;
+    float: none;
+}
+
+nav .nav li a {
+    text-align: center;
+}
+
+a.thumbnail {
+    display: inline-block;
+}
+
+.thumbnails > li {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.centered-thumbnail img,
+.thumbnail img {
+    height: 125px;
+    display: block;
+    margin: 0 auto;
+}
+
+a.thumbnail {
+    display: inline-block;
+    border: none;
+    padding: 2px;
+    margin: 0;
+}
+
+div.centered-thumbnail {
+    display: table;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+div.thumbnail {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+div.centered-thumbnail p,
+div.thumbnail p {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    padding-bottom: 0px;
+}
+
+div.gallery {
+    text-align: center;
+}
